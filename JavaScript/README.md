@@ -87,4 +87,4 @@ console.log(detector.getNetworkDetails());
 This project is licensed under the MIT License.
 ```
 
-Feel free to customize it further based on your needs. But don't publish that as it's your!
+Feel free to customize it further based on your needs.
