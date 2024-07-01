@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Type Detector Example</title>
+    <script src="NetworkTypeDetector.js"></script>
+</head>
+<body>
+    <h1>Network Type Detector Example</h1>
+    
+    <p id="networkType"></p>
+    <p id="connectionType"></p>
+
+    <script>
+        var detector = new NetworkTypeDetector();
+
+        function updateNetworkDetails() {
+            var networkDetails = detector.getNetworkDetails();
+            document.getElementById('networkType').textContent = 'Network Type: ' + networkDetails.networkType;
+            document.getElementById('connectionType').textContent = 'Connection Type: ' + networkDetails.connectionType;
+        }
+
+        updateNetworkDetails();
+        navigator.connection.addEventListener('change', updateNetworkDetails);
+    </script>
+</body>
+</html>

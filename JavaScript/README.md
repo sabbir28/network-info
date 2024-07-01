@@ -22,7 +22,7 @@ The `NetworkTypeDetector` library detects the network type (1G, 2G, 3G, 4G, 5G) 
 You can include the `NetworkTypeDetector` library in your project by downloading the script and adding it to your HTML file:
 
 ```html
-<script src="https://github.com/sabbir28/network-info/blob/main/JavaScript/NetworkTypeDetector.js"></script>
+<script src="NetworkTypeDetector.js"></script>
 ```
 
 Alternatively, you can install it via npm if available:
