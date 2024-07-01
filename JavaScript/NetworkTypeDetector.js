@@ -1,6 +1,6 @@
 /**
  * NetworkTypeDetector Library
- * Version: 1.1.0
+ * Version: 1.1.2
  * Author: Md. Sabbir Hoshen Howlader
  * 
  * This library detects the network type (1G, 2G, 3G, 4G, 5G) and whether the connection is mobile data or Wi-Fi.
